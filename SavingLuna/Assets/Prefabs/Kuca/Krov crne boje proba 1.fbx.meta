@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: a6425155d8418be43bcac7671b511487
+guid: 5fb6a518ff5a2d847bb9ae7962a4a4c6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: "Glavni_lik_Ko\u017Ea"
-    second: {fileID: 2100000, guid: ae058568fcf68174f976d692257972d3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: f83ddd117bb0cfe42a296816b8e78320, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

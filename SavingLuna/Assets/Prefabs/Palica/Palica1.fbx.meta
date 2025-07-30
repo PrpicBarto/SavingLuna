@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfa57ff05b9d4e34c94943b6bfa5455a
+guid: c4266557eb098154d96d6cf602cafa2f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Glavni_lik_Kosa
-    second: {fileID: 2100000, guid: 750a76cbc5929334fa57e4a77e5623c9, type: 2}
+      name: Ruke
+    second: {fileID: 2100000, guid: 5e839c3df39b8ef48a5a2a0738010101, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: "Glavni_lik_Ko\u017Ea"
-    second: {fileID: 2100000, guid: 84864d64b8b579f41ac77bd0d3c2e8e0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glavni_lik_Majica
-    second: {fileID: 2100000, guid: 6bd346d0bf53d524e80280653c32df14, type: 2}
+      name: Palica_Color
+    second: {fileID: 2800000, guid: 0b856119943711445a12c9b4efc7604f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
