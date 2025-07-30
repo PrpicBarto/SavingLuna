@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     
 
     private int score = 0;
+
+    Vector3 moveDirection;
 
     private void Start()
     {
@@ -32,16 +35,16 @@ public class PlayerMovement : MonoBehaviour
             Move(Vector3.right);
         }
 
-        if (Input.GetKey(KeyCode.W)/* && transform.position.x > -7*/)
+        moveDirection = Vector3.zero;
+
+        if (Input.GetKey(KeyCode.A))
         {
-            // playerRigidbody.linearVelocity = Vector2.left * speed * Time.deltaTime;
-            Move(Vector3.forward);
+            moveDirection += -transform.right;
         }
 
-        if (Input.GetKey(KeyCode.S)/* && transform.position.x < 7*/)
+        if (Input.GetKey(KeyCode.D))
         {
-            //playerRigidbody.linearVelocity = Vector2.right * speed * Time.deltaTime;
-            Move(Vector3.back);
+            moveDirection += transform.right;
         }
     }
 
