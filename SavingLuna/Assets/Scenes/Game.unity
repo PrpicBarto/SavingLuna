@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &19634329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 2066571648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &25512562
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +203,1005 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &36939891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9923506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.84456
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &53931057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.927766
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.963369
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &154769995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1025701993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &203315763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.940478
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.883102
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &208128856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1019455376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &211672144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 373454722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &215530883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 69.759
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &219039122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 652863953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &237191110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1676466767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &245223078 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1973460866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &250820829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &253384336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.479616
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.702262
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!4 &298896551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1883361055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &305430526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9907846
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.904612
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &326175731
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.939575
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.883102
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &345250138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.94526
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.963369
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &358416924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.61
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!1001 &372913410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.894293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.940332
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &373454722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.881855
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 49.802628
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &374842252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9907846
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.895914
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &378306957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.89
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 49.802628
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &393859368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1263092781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &396938386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 907882573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &449383462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 1876963288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &486296437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 593225134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &499037788 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 372913410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &502996532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5598164
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.099945
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
 --- !u!1 &508657294
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +1304,83 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &752915639
+--- !u!4 &529838576 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 345250138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &579510965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1993751520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &593225134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9743404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &599356454 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 250820829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &599624531
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,107 +1388,350 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 752915643}
-  - component: {fileID: 752915642}
-  - component: {fileID: 752915641}
-  - component: {fileID: 752915640}
+  - component: {fileID: 599624532}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Cesta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &752915640
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752915639}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &752915641
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752915639}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &752915642
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752915639}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &752915643
+--- !u!4 &599624532
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752915639}
+  m_GameObject: {fileID: 599624531}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1506015708}
+  - {fileID: 1309227721}
+  - {fileID: 529838576}
+  - {fileID: 2003102587}
+  - {fileID: 237191110}
+  - {fileID: 2100738992}
+  - {fileID: 499037788}
+  - {fileID: 393859368}
+  - {fileID: 1450465803}
+  - {fileID: 245223078}
+  - {fileID: 579510965}
+  - {fileID: 911896522}
+  - {fileID: 1992302750}
+  - {fileID: 1642227196}
+  - {fileID: 2063456042}
+  - {fileID: 1430434568}
+  - {fileID: 298896551}
+  - {fileID: 1942821173}
+  - {fileID: 912473721}
+  - {fileID: 1032792881}
+  - {fileID: 211672144}
+  - {fileID: 154769995}
+  - {fileID: 2001704205}
+  - {fileID: 1104022954}
+  - {fileID: 1058494165}
+  - {fileID: 1933687079}
+  - {fileID: 1095692076}
+  - {fileID: 486296437}
+  - {fileID: 1191273330}
+  - {fileID: 208128856}
+  - {fileID: 396938386}
+  - {fileID: 599356454}
+  - {fileID: 1323756305}
+  - {fileID: 2047636419}
+  - {fileID: 1229480108}
+  - {fileID: 1210138031}
+  - {fileID: 19634329}
+  - {fileID: 1406213860}
+  - {fileID: 747435055}
+  - {fileID: 1003934457}
+  - {fileID: 449383462}
+  - {fileID: 219039122}
+  - {fileID: 1815051345}
+  - {fileID: 727800808}
+  - {fileID: 810872974}
+  - {fileID: 1323689121}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &652863953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.67
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 60.21395
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!4 &727800808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 2120717572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &747435055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 2081671982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &762136725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 50.57
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!4 &810872974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 1548919366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &821696515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &862626084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9743404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.904612
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
 --- !u!1001 &891136802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -468,7 +1791,228 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6425155d8418be43bcac7671b511487, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1874878437}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6425155d8418be43bcac7671b511487, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1874878440}
   m_SourcePrefab: {fileID: 100100000, guid: a6425155d8418be43bcac7671b511487, type: 3}
+--- !u!1001 &907882573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &911896522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 326175731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &912473721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1601241722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1003934457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 762136725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1019455376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9743404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.871458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1025701993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.899982
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.78593
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1032792881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 378306957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1058494165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 374842252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1095692076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 862626084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1104022954 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1792889469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1169258210
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +2043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTarget: {fileID: 1921312723}
-  enemyPrefab: {fileID: 2786753124005267898, guid: 7d6d63d11fcd31b4fab7e1b8e165a25c, type: 3}
+  enemyPrefab: {fileID: 687646420601495459, guid: d23436c17ac0e1341b43e0920d19e579, type: 3}
   spawnPoint: {fileID: 1350686579}
   spawnInterval: 3
 --- !u!4 &1169258212
@@ -511,7 +2055,7 @@ Transform:
   m_GameObject: {fileID: 1169258210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.87066, y: 0, z: 0.83192}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -592,6 +2136,219 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179484893}
   m_CullTransparentMesh: 1
+--- !u!4 &1191273330 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1584087453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1210138031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 2078829638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1229480108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 253384336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1263092781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.894293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.927794
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1263852765
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.9631243
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.963369
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1309227721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1263852765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1315916122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.9759517
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.963369
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1323689121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 502996532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1323756305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 821696515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1350686578
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +2374,7 @@ Transform:
   m_GameObject: {fileID: 1350686578}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 2}
+  m_LocalPosition: {x: 2, y: 0.125, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -744,6 +2501,283 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!4 &1406213860 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 358416924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1430434568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 36939891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1434847389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.009698
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.84456
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1450465803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1945869384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1506015708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1315916122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1548919366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!1001 &1584087453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9743404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.89
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1601241722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.893687
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 43.836067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1642227196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1918454352}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1666960115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -762,7 +2796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -815,7 +2849,204 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1921312724}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1921312729}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1921312730}
   m_SourcePrefab: {fileID: 100100000, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
+--- !u!1001 &1671840047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.337173
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 69.02358
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!1001 &1676466767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.915737
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.963369
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1738011848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.894293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.942354
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
 --- !u!1 &1749005713
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +3109,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -953,6 +3184,72 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1001 &1792889469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.896564
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 69.759
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1815051345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 1671840047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1871631882 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a6425155d8418be43bcac7671b511487, type: 3}
@@ -978,7 +3275,222 @@ MonoBehaviour:
   swingSpeed: 5
   swingDuration: 0.2
   swingCooldown: 0.2
+  damage: 35
   swingPoint: {fileID: 1874878436}
+--- !u!136 &1874878440
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871631882}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.05
+  m_Height: 0.75
+  m_Direction: 2
+  m_Center: {x: 0.003658187, y: -0.022743937, z: 0.26542285}
+--- !u!1001 &1876963288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.124159
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.38297
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!1001 &1883361055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.9488597
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.84456
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1918454352
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.013087153
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.84456
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
 --- !u!1 &1921312722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cfa57ff05b9d4e34c94943b6bfa5455a, type: 3}
@@ -1029,7 +3541,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 1921312724}
-  speed: 10
+  speed: 2
+  rotationSpeed: 4
 --- !u!114 &1921312726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,6 +3558,469 @@ MonoBehaviour:
   healthbar: {fileID: 1179484895}
   maxHealth: 200
   currentHealth: 0
+--- !u!136 &1921312729
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921312722}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.24999997
+  m_Height: 0.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.00072649494, z: -0.0027204752}
+--- !u!136 &1921312730
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921312722}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 0.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.00072649494, z: -0.0027204752}
+--- !u!4 &1933687079 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 305430526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1942821173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1975146573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1945869384
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.894293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.896505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1973460866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.894293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.89011
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!1001 &1973686297
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4143505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0026293464
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.226939
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!1001 &1975146573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.927616
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.84456
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &1992302750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 203315763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1993751520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.93795
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.883102
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+      propertyPath: m_Name
+      value: Cesta Ravna najnovije (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+--- !u!4 &2001704205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 215530883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2003102587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 53931057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2047636419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+  m_PrefabInstance: {fileID: 1973686297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2063456042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1434847389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2066571648
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.41
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.13068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
 --- !u!1 &2071778485
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,14 +4097,226 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071778485}
   m_CullTransparentMesh: 1
+--- !u!1001 &2078829638
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.160862
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.46118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!1001 &2081671982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.315859
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 49.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+--- !u!4 &2100738992 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95c5fa25ebe7b224fb89d0109b036cfa, type: 3}
+  m_PrefabInstance: {fileID: 1738011848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2120717572
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 599624532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.582324
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.71136
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f9effc3b528233408b27b1f487cd119, type: 2}
+    - target: {fileID: 919132149155446097, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
+      propertyPath: m_Name
+      value: Cesta Kriva najnovije (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ca262c8c3994b4f99aa32f4cfdc018, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1356183427}
-  - {fileID: 752915643}
   - {fileID: 1666960115}
   - {fileID: 1169258212}
   - {fileID: 1350686579}
   - {fileID: 508657298}
   - {fileID: 25512565}
+  - {fileID: 599624532}

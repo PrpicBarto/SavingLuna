@@ -6,6 +6,7 @@ public class PalicaSwing : MonoBehaviour
     [SerializeField] float swingSpeed = 5f; // Speed of the swing
     [SerializeField] float swingDuration = 0.2f;
     [SerializeField] float swingCooldown = 2f;
+    [SerializeField] float damage = 35f;
 
     [SerializeField] Transform swingPoint; // The point around which the swing occurs
 
@@ -49,5 +50,14 @@ public class PalicaSwing : MonoBehaviour
             baseY + endAngle,
             swingPoint.eulerAngles.z
         );
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.TryGetComponent(out ZombieHealth zombieHealth))
+        {
+            zombieHealth.TakeDamage(damage);
+            Debug.Log("Zombie hit by palica swing!");
+        }
     }
 }

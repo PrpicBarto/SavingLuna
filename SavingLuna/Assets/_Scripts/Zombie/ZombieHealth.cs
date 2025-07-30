@@ -17,4 +17,13 @@ public class ZombieHealth : MonoBehaviour
     {
         healthbar.fillAmount = currentHealth / maxHealth;
     }
+
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject); // Destroy the zombie when health reaches 0
+        }
+    }
 }

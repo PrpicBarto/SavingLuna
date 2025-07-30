@@ -16,14 +16,18 @@ public class ZombieEnemyMovementScript : MonoBehaviour
         transform.LookAt(playerTarget.position);
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        /*
-        if (other.gameObject.TryGetComponent(out PlayerHealth playerHealth))
+        if (other.TryGetComponent(out PlayerHealth playerHealth))
         {
             playerHealth.TakeDamage(damage);
-            Destroy(gameObject);
+            Debug.Log("Zombie attacked the player!");
         }
-        */
+        if(other.TryGetComponent(out PlayerMovement playerMovement))
+        {
+            Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
+                playerRigidbody.AddForce(-playerMovement.transform.forward * 100, ForceMode.Impulse);
+                Debug.Log("Zombie pushed the player!");
+        }
     }
 }
