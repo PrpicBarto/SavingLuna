@@ -4,13 +4,12 @@ using UnityEngine;
 public class PalicaSwing : MonoBehaviour
 {
     [SerializeField] float swingSpeed = 5f; // Speed of the swing
-    [SerializeField] float SwingAngle = 180f;
     [SerializeField] float swingDuration = 0.2f;
     [SerializeField] float swingCooldown = 2f;
 
-    [SerializeField] bool isFirstSwing;
-
     [SerializeField] Transform swingPoint; // The point around which the swing occurs
+
+    private bool swingLeftToRight = true; // Track direction
 
     private void Update()
     {
@@ -22,27 +21,33 @@ public class PalicaSwing : MonoBehaviour
 
     void Attack()
     {
-        swingPoint.Rotate(0, SwingAngle, 0);
         StartCoroutine(SwingCoroutine());
-        SwingAngle = -SwingAngle; // Reverse the swing angle for the next attack
+        swingLeftToRight = !swingLeftToRight; // Alternate direction
     }
 
     IEnumerator SwingCoroutine()
     {
         float elapsedTime = 0f;
-        float initialAngle = swingPoint.eulerAngles.y;
-        if(swingCooldown > 0f)
+        float startAngle = swingLeftToRight ? -80f : 80f;
+        float endAngle = swingLeftToRight ? 80f : -80f;
+        float baseY = swingPoint.parent != null ? swingPoint.parent.eulerAngles.y : 0f;
+
+        while (elapsedTime < swingDuration)
         {
-            while (elapsedTime < swingDuration)
-            {
-                float angle = Mathf.Lerp(initialAngle, initialAngle + SwingAngle, elapsedTime / swingDuration);
-                swingPoint.eulerAngles = new Vector3(swingPoint.eulerAngles.x, angle, swingPoint.eulerAngles.z);
-                elapsedTime += Time.deltaTime;
-                yield return null;
-            }
-            yield return new WaitForSeconds(swingCooldown);
+            float angle = Mathf.Lerp(startAngle, endAngle, elapsedTime / swingDuration);
+            swingPoint.eulerAngles = new Vector3(
+                swingPoint.eulerAngles.x,
+                baseY + angle,
+                swingPoint.eulerAngles.z
+            );
+            elapsedTime += Time.deltaTime;
+            yield return null;
         }
-        // Reset the angle after the swing
-        swingPoint.eulerAngles = new Vector3(swingPoint.eulerAngles.x, initialAngle - SwingAngle, swingPoint.eulerAngles.z);
+        // Ensure it ends exactly at endAngle
+        swingPoint.eulerAngles = new Vector3(
+            swingPoint.eulerAngles.x,
+            baseY + endAngle,
+            swingPoint.eulerAngles.z
+        );
     }
 }
