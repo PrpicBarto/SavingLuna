@@ -6,7 +6,7 @@ public class EndScreen : MonoBehaviour
     public void RestartButton()
     {
         Debug.Log("Restarting the game...");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     public void BackToMainMenu()
     {

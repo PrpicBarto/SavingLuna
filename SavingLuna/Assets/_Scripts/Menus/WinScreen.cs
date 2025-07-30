@@ -5,7 +5,7 @@ public class WinScreen : MonoBehaviour
 {
     public void OnClickRestart()
     {
-        SceneManager.LoadScene(1); // Assuming scene index 1 is the game scene
+        SceneManager.LoadScene(2); // Assuming scene index 2 is the game scene
     }
 
     public void OnClickMainMenu()
