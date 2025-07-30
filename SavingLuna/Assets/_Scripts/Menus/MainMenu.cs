@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
     public void OnClickStart()
     {
         Debug.Log("START GAME");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     public void OnClickQuit()
     {
