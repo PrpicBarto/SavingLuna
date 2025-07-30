@@ -977,7 +977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swingSpeed: 90
   SwingAngle: 180
-  swingDuration: 1
+  swingDuration: 0.2
   swingCooldown: 0.2
   isFirstSwing: 1
   swingPoint: {fileID: 1874878436}
