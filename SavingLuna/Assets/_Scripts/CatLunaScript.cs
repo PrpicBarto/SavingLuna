@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CatLunaScript : MonoBehaviour
 {
+    [SerializeField] private GameObject palica;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,5 +13,14 @@ public class CatLunaScript : MonoBehaviour
     void Update()
     {
         
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent<PlayerMovement>(out PlayerMovement PlayerMovement))
+        {
+            PlayerMovement.playerHasCat = true;
+            Destroy(palica);
+            Destroy(gameObject);
+        }
     }
 }

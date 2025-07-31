@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody playerRigidbody;
     [SerializeField] private float speed;
     [SerializeField] private float rotationSpeed;
+    [SerializeField] public bool playerHasCat;
+
     private void FixedUpdate()
     {
         playerRigidbody.linearVelocity = Vector3.zero;
