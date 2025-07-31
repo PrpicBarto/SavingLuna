@@ -7,9 +7,14 @@ public class PalicaSwing : MonoBehaviour
     [SerializeField] float damage = 35f;
 
     [SerializeField] Transform swingPoint; // The point around which the swing occurs
+    [SerializeField] CapsuleCollider palicaSwingCollider; // The collider that detects hits
 
     private bool swingLeftToRight = true; // Track direction
 
+    private void Start()
+    {
+        palicaSwingCollider.enabled = false; // Disable collider initially
+    }
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -20,6 +25,7 @@ public class PalicaSwing : MonoBehaviour
 
     void Attack()
     {
+        palicaSwingCollider.enabled = true; // Enable collider for the swing duration
         StartCoroutine(SwingCoroutine());
         swingLeftToRight = !swingLeftToRight; // Alternate direction
     }
@@ -48,6 +54,7 @@ public class PalicaSwing : MonoBehaviour
             baseY + endAngle,
             swingPoint.eulerAngles.z
         );
+        palicaSwingCollider.enabled = false; // Disable collider after the swing
     }
 
     private void OnTriggerEnter(Collider other)

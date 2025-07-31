@@ -26,7 +26,7 @@ public class ZombieEnemyMovementScript : MonoBehaviour
         if(other.TryGetComponent(out PlayerMovement playerMovement))
         {
             Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
-                playerRigidbody.AddForce(-playerMovement.transform.forward * 100, ForceMode.Impulse);
+                playerRigidbody.AddForce(-playerMovement.transform.forward * 50, ForceMode.Impulse);
                 Debug.Log("Zombie pushed the player!");
         }
     }

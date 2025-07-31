@@ -1143,6 +1143,7 @@ MonoBehaviour:
   swingDuration: 0.2
   damage: 35
   swingPoint: {fileID: 426893962}
+  palicaSwingCollider: {fileID: 426893966}
 --- !u!136 &426893966
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2213,19 +2214,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.6427876
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2233,7 +2234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4266557eb098154d96d6cf602cafa2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
