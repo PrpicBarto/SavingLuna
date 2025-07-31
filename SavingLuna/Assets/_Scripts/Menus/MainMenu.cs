@@ -10,11 +10,6 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private TMP_Text volumeText;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private AudioSource audioSource;
-
-    private void Awake()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
     private void Update()
     {
         audioSource.volume = volumeSlider.value;
@@ -22,7 +17,7 @@ public class MainMenu : MonoBehaviour
     public void OnClickStart()
     {
         Debug.Log("START GAME");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
     public void OnClickQuit()
     {
