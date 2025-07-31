@@ -2278,15 +2278,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5fb6a518ff5a2d847bb9ae7962a4a4c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 1.88
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fb6a518ff5a2d847bb9ae7962a4a4c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fb6a518ff5a2d847bb9ae7962a4a4c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.873
+      value: 4.06
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fb6a518ff5a2d847bb9ae7962a4a4c6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2341,7 +2341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1169258211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2354,7 +2354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff60620765f33ce40acc7bd80bcf0adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTarget: {fileID: 0}
+  playerTarget: {fileID: 566344998}
   enemyPrefab: {fileID: 5972693235148159568, guid: 32bb84fa45d275940a360e310a345aee, type: 3}
   spawnPoint: {fileID: 1350686579}
   spawnInterval: 3
@@ -3368,7 +3368,7 @@ Transform:
   m_GameObject: {fileID: 1749005713}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.875, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
