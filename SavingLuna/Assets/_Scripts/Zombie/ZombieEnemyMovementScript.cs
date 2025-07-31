@@ -1,18 +1,28 @@
-using System;
+using UnityEngine.AI;
 using UnityEngine;
 
 public class ZombieEnemyMovementScript : MonoBehaviour
 {
     public Transform playerTarget;
-    [SerializeField] public float movementSpeed = 5f;
+    [SerializeField] public float movementSpeed = 2f;
     [SerializeField] private float damage = 20f;
+    [SerializeField] private float attackRange = 7.5f;
+    [SerializeField] private float distanceToPlayer;
+
+    [SerializeField] private bool pathCalculate = false;
+
+    Vector3 startingPoint;
+    [SerializeField] NavMeshAgent navMeshAgent;
+
+    public TriggerZoneScript myZone;
+
 
     private void Update()
     {
         transform.position = Vector3.MoveTowards(
             transform.position,
             playerTarget.position,
-            movementSpeed * Time.deltaTime);
+            movementSpeed* Time.deltaTime);
         transform.LookAt(playerTarget.position);
     }
 
@@ -21,13 +31,12 @@ public class ZombieEnemyMovementScript : MonoBehaviour
         if (other.TryGetComponent(out PlayerHealth playerHealth))
         {
             playerHealth.TakeDamage(damage);
-            Debug.Log("Zombie attacked the player!");
         }
-        if(other.TryGetComponent(out PlayerMovement playerMovement))
+        if (other.TryGetComponent(out PlayerMovement playerMovement))
         {
             Rigidbody playerRigidbody = other.GetComponent<Rigidbody>();
-                playerRigidbody.AddForce(-playerMovement.transform.forward * 50, ForceMode.Impulse);
-                Debug.Log("Zombie pushed the player!");
+            playerRigidbody.AddForce(-playerMovement.transform.forward * 50, ForceMode.Impulse);
         }
     }
+
 }
