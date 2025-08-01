@@ -16,7 +16,10 @@ public class ZombieEnemyMovementScript : MonoBehaviour
 
     public TriggerZoneScript myZone;
 
-
+    private void Awake()
+    {
+        playerTarget = GameObject.FindGameObjectWithTag("Player").transform;
+    }
     private void Update()
     {
         transform.position = Vector3.MoveTowards(

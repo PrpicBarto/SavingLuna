@@ -9,10 +9,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float rotationSpeed;
     [SerializeField] public bool playerHasCat;
 
-    private void FixedUpdate()
+    private void Update()
     {
-        playerRigidbody.linearVelocity = Vector3.zero;
-
         if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(0, rotationSpeed * Time.deltaTime -1, 0);
@@ -22,6 +20,11 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.Rotate(0, rotationSpeed * Time.deltaTime + 1, 0);
         }
+    }
+    private void FixedUpdate()
+    {
+        playerRigidbody.linearVelocity = Vector3.zero;
+
 
         if (Input.GetKey(KeyCode.W))
         {

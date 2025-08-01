@@ -8,6 +8,7 @@ public class PalicaSwing : MonoBehaviour
 
     [SerializeField] Transform swingPoint; // The point around which the swing occurs
     [SerializeField] CapsuleCollider palicaSwingCollider; // The collider that detects hits
+    [SerializeField] AudioSource swingSound; // Sound to play on swing
 
     private bool swingLeftToRight = true; // Track direction
 
@@ -26,6 +27,7 @@ public class PalicaSwing : MonoBehaviour
     void Attack()
     {
         palicaSwingCollider.enabled = true; // Enable collider for the swing duration
+        swingSound.PlayOneShot(swingSound.clip); // Play the swing sound
         StartCoroutine(SwingCoroutine());
         swingLeftToRight = !swingLeftToRight; // Alternate direction
     }

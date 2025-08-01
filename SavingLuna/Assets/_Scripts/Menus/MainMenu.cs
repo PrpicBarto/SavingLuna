@@ -9,10 +9,22 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject gamePanel;
     [SerializeField] private TMP_Text volumeText;
     [SerializeField] private Slider volumeSlider;
-    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSourceMainMenu;
+    [SerializeField] private AudioSource audioSourceBackground;
+    private void Awake()
+    {
+        DontDestroyOnLoad(audioSourceBackground.gameObject);
+        DontDestroyOnLoad(audioSourceMainMenu.gameObject);
+    }
+    private void Start()
+    {   
+        audioSourceBackground.Stop();
+        audioSourceMainMenu.Play();
+    }
     private void Update()
     {
-        audioSource.volume = volumeSlider.value;
+        audioSourceMainMenu.volume = volumeSlider.value;
+        audioSourceBackground.volume = volumeSlider.value;
     }
     public void OnClickStart()
     {
